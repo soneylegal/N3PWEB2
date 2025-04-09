@@ -1,0 +1,127 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  border: 5px solid #4caf50;
+  border-radius: 15px;
+  height: auto;
+  padding: 20px;
+  flex-direction: column;
+  background-color: white;
+  font-size: 18px;
+}
+
+label {
+  padding: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+#sub,
+#cancel {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+#bt {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#bt:hover {
+  background-color: #005f73;
+}
+
+#tabela {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+#tabela th,
+#tabela td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#tabela th {
+  background-color: #4caf50;
+  color: white;
+}
+
+#tabela tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tabela tr:hover {
+  background-color: #e9f7e9;
+}
+
+#tabela tbody tr td {
+  font-size: 14px;
+  color: #333;
+}
+
+hr {
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+
+a {
+  text-decoration: none;
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
